@@ -1,0 +1,8 @@
+[package]
+name = "tasklist"
+version = "0.1.0"
+edition = "2024"
+description = "The Tasklist Command Lists Windows Processes with Image Name and PID Filters, and Compares Saved Snapshots to Highlight Started and Stopped Processes"
+
+[dependencies]
+clap = { version = "=4.6.6", features = ["derive"] }
